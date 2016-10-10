@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/* utseende listor */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    padding-right: 100px;
+    padding-top: 10px;
+    align-content: stretch;
+    font-family: fantasy;
+    text-align-last: right;
+    
+    }
+li a{
+    color: aliceblue;
+}
+
+/* Div utseende */
+
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+#boxtext {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: aliceblue;
+    vertical-align: middle;
+}
+body{
+    max-height: 100%;
+    max-width: 100%;
+    
+    
+}
+#image{
+    background-image: url(img/001115_Gaute-Bruvik_www.nordnorge.com_Karlsoey.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#banner{
+    background-color: #118787;
+    text-align: left;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: black;
+    color: aliceblue;
+    box-sizing: border-box; /*make correct size of the box */
+    
+}
+#storbox{
+    
+    margin: auto;
+    padding-top: 10px;
+    max-width: 100%;
+    max-height: inherit;
+    background-color: lightgrey;
+    clear: left;
+}
+#box1{
+    border: 3px black;
+    width: 400px;
+    height: 200px;
+    background-image: url(img/Teknikenshus-FACEBOOK-051.jpg);
+    background-size: cover;
+    text-align: left;
+    float: left;
+    vertical-align: middle;
+}
+#box2{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: left;
+}
+#box3{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: right;
+    }
+
+#box4{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: right;
+    }
+
+
+#leftbox{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: left;
+    }
+
+#rightbox{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: right;
+    }
+.bakgrund {
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 20;
+        
+}
