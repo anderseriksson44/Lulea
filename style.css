@@ -11,48 +11,82 @@ ul {
     overflow: hidden;
     vertical-align: middle;
     text-align: right;
-}
+    float: right;
+    }
 
 nav li{
     display: inline-block;
     padding-right: 100px;
     padding-top: 10px;
     align-content: stretch;
-    font-family: fantasy;
+    font-family: sans-serif;
+    font-size: 20px;
     text-align-last: right;
+    margin-bottom: 20px;
+    float: left;
     
     }
 li a{
-    color: aliceblue;
+    color: #424243;
 }
 
 /* Div utseende */
 
-
+p{
+    font-family: sans-serif;
+    font-size: 12pt;
+}
 
 h1 {
-    font-size: 2em;
+    font-family: sans-serif;
+    font-size: 20pt;
     font-weight: bold;
     margin: 0px;
 }
+.background{
+    border-bottom-left-radius: 10;
+    opacity: 0.5;
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
 #boxtext {
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: auto;
     font-weight: bold;
-    /*text-align: left;*/
+    text-align: justify;
     color: #e6e6e6;
     vertical-align: middle;
     padding-left: 15px;
 }
 body{
-    background-image: url(img/norrsken_3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: auto;
     max-height: 100%;
     max-width: 100%;
     
+}
+#footerbackground{
+    width: 100%;
+    height: 300px;
+    background-color: #f10;
+}
+#grey{
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    clear: both;
     
 }
+.footer{
+    width: 33%;
+    height: auto;
+    float:left;
+        
+}
+
 #image{
     background-image: url(img/001115_Gaute-Bruvik_www.nordnorge.com_Karlsoey.jpg);
     background-size: contain;
@@ -61,37 +95,75 @@ body{
     max-width: 100%;
 }
 
+header{
+    top:0px;
+    text-align: justify;
+    padding-left: 130px;
+    padding-top: 30px;
+}
 #banner{
-    background-color: #118787;
+    top: 0px;
+    background-color: #ffffff;
     text-align: left;
     margin-bottom: 50px;
     padding: 20px;
-    border: 2px solid;
-    border-color: black;
-    color: aliceblue;
+    width: 100%;
+    font-family: sans-serif;
+    color: #424243;
     box-sizing: border-box; /*make correct size of the box */
     
 }
-#storbox{
+.content{
+    width: 80%;
+    height: auto;
+    margin: auto;
     
+}
+article{
+    background-color: #f7f8f8;
+    height: auto;
+}
+#infobox{
+    
+}
+.info {
+    padding: 30px;
+}
+#infobox{
+    margin-top: 20px;
+    height: 300px;
+    clear: both;
+    object-position: center;
+    display: block;
+}
+}
+#storbox{
+    width: 60%;
     margin: auto;
     padding-top: 10px;
     max-width: 100%;
     max-height: inherit;
-    background-color: lightgrey;
+    background-color: #f8f8f8;
     }
 
-#box1{
+.box1{
     display: inline-block;
     border-style: solid; 
     border-color: black;
-    width: 33%;
-    height: 200px;
-    background-image: url(img/teknikenshus.jpg);
+    width: 300px;
+    height: 150px;
     background-size: cover;
-    vertical-align: top;
-    text-align: left;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
     }
+
+.boxstorlek{
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
 #box2{
     display: inline-block;
     border-style: solid; 
